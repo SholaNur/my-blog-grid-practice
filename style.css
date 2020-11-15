@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, minmax(50px, auto));
+    grid-gap: 10px;
+    min-width: 1000px;
+    margin: 0 auto;
+}
+
+.one {
+    grid-column: 1 / 7;
+    grid-row: 1 / 1;
+}
+
+.two {
+    grid-column: 1 / 5;
+    grid-row: 2 / 3;
+}
+
+.three {
+    grid-column: 5 / 7;
+    grid-row: 2 / 3;
+}
+
+.four {
+    grid-column: 1 / 5;
+    grid-row: 3 / 4;
+}
+
+.five {
+    grid-column: 5 / 7;
+    grid-row: 3 / 4;
+}
+
+.six {
+    grid-column: 5 / 7;
+    grid-row: 4 / 4;
+}
+
+.seven {
+    grid-column: 1/7;
+    grid-row: 6/6;
+}
+
+/* Inner Section Start  container #2*/
+
+.two {
+    width: 90%;
+    max-height: 900px;
+    overflow: hidden;
+}
+
+.two-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    /* object-fit: cover; */
+    /* object-position: 20% 10%; */
+    /* try 20px 10px */
+    /* border: 5px solid black; */
+}
+
+h2 {
+    margin-top: 15px;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h5 {
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.flex-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+button {
+    padding: 5px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+i {
+    margin: 3px;
+}
+
+.three-img {
+    width: 100%;
+    height: auto;
+}
+
+.four {
+    width: 90%;
+    max-height: 900px;
+    overflow: hidden;
+    margin-left: 10px;
+}
+
+.two-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.five {
+    /* background-color: whitesmoke; */
+    box-shadow: whitesmoke;
+}
+
+.png {
+    width: 55px;
+    height: auto;
+    margin-left: 10px;
+}
+
+.post-par {
+    float: right;
+    padding-right: 45px;
+}
+
+hr {
+    width: 100%;
+    color: grey;
+    margin: 5px;
+}
+
+.ppost {
+    background-color: lightgray;
+    padding: 20px;
+    font-weight: lighter;
+}
+
+.ppost-box:hover {
+    background-color: lightgray;
+}
+
+/* styling container #6 */
+
+.six {
+    background-color: whitesmoke;
+}
+
+.tag {
+    background-color: lightgray;
+    padding: 20px;
+    font-weight: lighter;
+    margin-top: 0px;
+}
+
+.tag-parent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+span {
+    background-color: whitesmoke;
+    padding: 3px;
+    margin: 5px;
+    border: 0.5px solid grey;
+    border-radius: 5px;
+}
+
+span:hover {
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+
+/* header container 1 */
+
+.one {
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;
+}
+
+/* container #2 */
+
+.two {
+    margin-left: 10px;
+}
+
+.seven {
+    height: 100px;
+    background-color: darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer {
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    padding-top: 4px;
+}
